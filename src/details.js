@@ -48,6 +48,7 @@ export const aboutMe = {
 
 export const services = [
   {
+    id: 1,
     title: "Social Media Marketing",
     icon: "icon",
     details: [
@@ -62,6 +63,7 @@ export const services = [
     ],
   },
   {
+    id: 2,
     title: "Shopify Website Design",
     icon: "icon",
     details: [
@@ -76,6 +78,7 @@ export const services = [
     ],
   },
   {
+    id: 3,
     title: "Business Management Consulting",
     icon: "icon",
     details: [
@@ -90,6 +93,7 @@ export const services = [
     ],
   },
   {
+    id: 4,
     title: "Marketing Strategy Consultation",
     icon: "icon",
     details: [
@@ -104,6 +108,7 @@ export const services = [
     ],
   },
   {
+    id: 5,
     title: "Video Spokesperson Services",
     icon: "icon",
     details: [
