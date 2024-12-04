@@ -1,3 +1,7 @@
+import Image1 from "../src/assets/testimonial1.png";
+import Image2 from "../src/assets/testimonial2.png";
+import Image3 from "../src/assets/testimonial3.png";
+
 export const heroItems = {
   headLine:
     "Empowering Businesses with Strategy, Design, and Marketing Excellence",
@@ -134,3 +138,27 @@ export const social = {
   twiter: "https://x.com/saeemtalukdar",
   companyWebSite: "https://roxemy.com/",
 };
+
+export const testimonials = [
+  {
+    id: 1,
+    image: Image1,
+    title: "Darren Rushcurry",
+    description:
+      "A really good job, all aspects of the project were followed step by step.A really good job, all aspects of the project were followed step by step.",
+  },
+  {
+    id: 2,
+    image: Image2,
+    title: "Reana Vennesa",
+    description:
+      "A really good job, all aspects of the project were followed step by step.",
+  },
+  {
+    id: 3,
+    image: Image3,
+    title: "Sara Cill",
+    description:
+      "A really good job, all aspects of the project were followed step by step.",
+  },
+];
