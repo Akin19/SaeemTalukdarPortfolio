@@ -20,11 +20,11 @@ const About = () => {
         </div>
       </div>
 
-      <div className="container whyChoseMe">
+      {/* <div className="container whyChoseMe">
         <span className="section__subtitle">Why Chose ME?</span>
-        {/* experience starts here */}
+        {/* experience starts here 
         <Info />
-      </div>
+      </div> */}
     </section>
   );
 };

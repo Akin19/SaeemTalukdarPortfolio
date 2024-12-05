@@ -33,7 +33,32 @@ export const skills = [
     desc: "Bring your brand to life with professional video presentations. I deliver captivating, on-brand spokesperson videos that communicate your message and leave a lasting impression on your audience.",
   },
 ];
+export const whyChoseMe = [
+  {
+    iconClass: "bx bxs-badge-check",
+    title: "Experience",
+    numbers: "8 Years of Working",
+  },
+  {
+    iconClass: "bx bxs-briefcase",
+    title: "Complete",
+    numbers: "48+ Projects",
+  },
+  {
+    iconClass: "bx bx-support",
+    title: "Support",
+    numbers: "Online 24/7",
+  },
+];
 
+export const trustedBy = [
+  "Colorpop",
+  "Fashionnova",
+  "FoodBelgium",
+  "Drinkbyu",
+  "Bellicon",
+  "300+ Business",
+];
 export const experience = {
   years: 4,
   runningProject: 45,

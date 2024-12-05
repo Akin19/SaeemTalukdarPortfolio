@@ -1,3 +1,4 @@
+import Info from "../about/Info";
 import AllSkills from "./AllSkills";
 // import DigitalMarketing from "./DigitalMarketing";
 // import SEO from "./SEO";
@@ -15,6 +16,12 @@ const Skills = () => {
 
         <SEO /> */}
         <AllSkills />
+      </div>
+
+      <div className="container whyChoseMe">
+        <span className="section__subtitle">Why Chose ME?</span>
+
+        <Info />
       </div>
     </section>
   );
