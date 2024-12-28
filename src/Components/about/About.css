@@ -9,7 +9,7 @@
 }
 /* About img starts heer */
 .home__img1 {
-  background: url(./profile.jpg);
+  background: url(./SaeemTalukdarAbout.png);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
@@ -235,7 +235,7 @@
 
   /* Swiper starts here */
   .mySwiper {
-    max-height: 250px;
+    max-height: 350px;
   }
 
   .swiper-slide {

@@ -58,7 +58,11 @@ const Header = () => {
               { href: "#home", label: "Home", icon: "uil uil-estate" },
               { href: "#about", label: "About", icon: "uil uil-user" },
               { href: "#skills", label: "Skills", icon: "uil uil-file-alt" },
-              { href: "#service", label: "Service", icon: "uil uil-briefcase" },
+              {
+                href: "#service",
+                label: "Services",
+                icon: "uil uil-briefcase",
+              },
               {
                 href: "#portfolio",
                 label: "Portfolio",

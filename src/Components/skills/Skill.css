@@ -51,6 +51,12 @@
   font-size: var(--smaller-font-size);
 }
 
+.whyChoseMe {
+  text-align: center;
+}
+.mb {
+  margin-bottom: var(--mb-3);
+}
 /* responsive starts here */
 
 @media screen and (max-width: 992px) {

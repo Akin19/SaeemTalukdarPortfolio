@@ -128,7 +128,7 @@ const Service = () => {
   return (
     <section className="service section" id="service">
       <h2 className="section__title">Services</h2>
-      <span className="section__subtitle">What I Offer</span>
+      <span className="section__subtitle"> I am offering………</span>
 
       <div className="services__container container grid">
         {services.map((service, index) => (

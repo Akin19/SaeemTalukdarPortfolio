@@ -32,22 +32,27 @@ export const skills = [
     name: "Video Spokesperson Services",
     desc: "Bring your brand to life with professional video presentations. I deliver captivating, on-brand spokesperson videos that communicate your message and leave a lasting impression on your audience.",
   },
+
+  {
+    name: "Wikipedia Page & Google Knowledge Panel",
+    desc: "Specializing in creating professional Wikipedia pages and Google Knowledge Panels, I help individuals, businesses, and organizations establish authoritative and credible online presences.",
+  },
 ];
 export const whyChoseMe = [
   {
     iconClass: "bx bxs-badge-check",
     title: "Experience",
-    numbers: "8 Years of Working",
+    numbers: "4+ Years of Working",
   },
   {
     iconClass: "bx bxs-briefcase",
     title: "Complete",
-    numbers: "48+ Projects",
+    numbers: "500+ Projects",
   },
   {
     iconClass: "bx bx-support",
     title: "Support",
-    numbers: "Online 24/7",
+    numbers: "24/7 for Lifetime",
   },
 ];
 
@@ -148,6 +153,22 @@ export const services = [
           "High-quality videos, persuasive scripts, and on-brand delivery.",
         pricing: "Starts with 300$/Script",
         buttonTxt: "Get The Video",
+      },
+    ],
+  },
+
+  {
+    id: 6,
+    title: "Wikipedia Page & Google Knowledge Panel.",
+    icon: "icon",
+    details: [
+      {
+        Description:
+          "My expertise ensures that your content meets strict platform guidelines while highlighting achievements and building trust with your audience.",
+        features:
+          "High-quality videos, persuasive scripts, and on-brand delivery.",
+        pricing: "Starts with 300$",
+        buttonTxt: "Book a Call",
       },
     ],
   },

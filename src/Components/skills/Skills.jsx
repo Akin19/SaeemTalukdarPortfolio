@@ -6,10 +6,12 @@ import "./Skill.css";
 
 const Skills = () => {
   return (
-    <section className="skills section" id="skill">
+    <section className="skills section" id="skills">
       <h2 className="section__title">Skills</h2>
 
-      <span className="section__subtitle">My Thechnical Level</span>
+      <span className="section__subtitle">
+        Where clients meet to Brand their presence
+      </span>
 
       <div className="skills__container container grid">
         {/* <DigitalMarketing />
@@ -19,7 +21,7 @@ const Skills = () => {
       </div>
 
       <div className="container whyChoseMe">
-        <span className="section__subtitle">Why Chose ME?</span>
+        <h2 className="section__title mb">Why Chose ME?</h2>
 
         <Info />
       </div>
