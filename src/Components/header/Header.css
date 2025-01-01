@@ -15,12 +15,20 @@
   align-items: center;
   column-gap: 1rem;
 }
-
 .nav__logo,
 .nav__toggle {
   color: var(--title-color);
   font-weight: var(--font-medium);
 }
+
+/* Nav Logo starts Here */
+
+/* .nav__logo__img {
+  width: 200px;
+  height: 100%;
+  margin-top: -60px;
+  margin-bottom: -100px;
+} */
 
 .nav__list {
   display: flex;
@@ -60,6 +68,10 @@
     top: initial;
     bottom: 0;
   }
+
+  /* .nav__logo__img {
+    width: 200px;
+  } */
 
   .nav {
     height: var(--header-height);

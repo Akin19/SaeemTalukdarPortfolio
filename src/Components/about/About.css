@@ -186,7 +186,9 @@
 
 .marquee {
   display: inline-flex;
-  animation: marquee 15s linear infinite;
+  animation: marquee 8s linear infinite;
+  max-height: 93px;
+  margin-top: 30px;
 }
 
 .marquee h4 {
@@ -201,7 +203,7 @@
     transform: translateX(0%);
   }
   100% {
-    transform: translateX(-50%);
+    transform: translateX(-100%);
   }
 }
 
@@ -248,6 +250,10 @@
   }
 }
 
+.company-logo {
+  margin-left: 20px;
+}
+
 /* For Medium Screen */
 
 @media screen and (max-width: 568px) {
@@ -260,7 +266,7 @@
   }
   /* swiper starts here */
   .mySwiper {
-    max-height: 200px;
+    max-height: 300px;
     padding: 0.5rem;
   }
 

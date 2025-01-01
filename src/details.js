@@ -1,6 +1,22 @@
-import Image1 from "../src/assets/testimonial1.png";
-import Image2 from "../src/assets/testimonial2.png";
-import Image3 from "../src/assets/testimonial3.png";
+// import Image1 from "../src/assets/testimonial1.png";
+// import Image2 from "../src/assets/testimonial2.png";
+// import Image3 from "../src/assets/testimonial3.png";
+
+import Image1 from "../src/assets/testimonial/HolandoAndreas.jpg";
+import Image2 from "../src/assets/testimonial/Jessika.jpg";
+
+import Image3 from "../src/assets/testimonial/Patrick.png";
+import Image4 from "../src/assets/testimonial/PejardeLaundsap.jpg";
+import Image5 from "../src/assets/testimonial/RonaldJames.jpg";
+
+// Trusted By Image starts here
+
+import Colorpop from "../src/assets/company/colourPop.png";
+import Fashionnova from "../src/assets/company/fashionNova.png";
+import FoodBelgium from "../src/assets/company/foodbelgium.png";
+import Drinkbyu from "../src/assets/company/companyLogo.jpg";
+import Bellicon from "../src/assets/company/miscota.png";
+import business from "../src/assets/company/300+business.jpg";
 
 export const heroItems = {
   headLine:
@@ -63,6 +79,15 @@ export const trustedBy = [
   "Drinkbyu",
   "Bellicon",
   "300+ Business",
+];
+
+export const trustedByImg = [
+  Colorpop,
+  Fashionnova,
+  FoodBelgium,
+  Drinkbyu,
+  Bellicon,
+  business,
 ];
 export const experience = {
   years: 4,
@@ -189,22 +214,35 @@ export const testimonials = [
   {
     id: 1,
     image: Image1,
-    title: "Darren Rushcurry",
+    title: "Holando Andreas",
     description:
-      "A really good job, all aspects of the project were followed step by step.A really good job, all aspects of the project were followed step by step.",
+      "We are very happy with the campaign set up, ads and enjoyed working with Saeem. He was easy to communicate with, always a fast response. He kept us updated and exceeded our expectations. Would highly recommend his service.",
   },
   {
     id: 2,
     image: Image2,
-    title: "Reana Vennesa",
+    title: "Jessika Decourde",
     description:
-      "A really good job, all aspects of the project were followed step by step.",
+      " I can recommend Saeem to everyone, he is professional, fast and thorough. I will only work with him after that.",
   },
   {
     id: 3,
     image: Image3,
-    title: "Sara Cill",
+    title: "Patrick",
     description:
-      "A really good job, all aspects of the project were followed step by step.",
+      "This was my first time using the platform and my experience was really good. It's been an absolute pleasure working with him! He really went out of his way to accommodate my needs and budget. I will definitely use his services again for any future campaigns. Thank you 🙏",
+  },
+  {
+    id: 4,
+    image: Image4,
+    title: "Pejarde Laundsaple ",
+    description:
+      " I am very happy with the services,the ads were made to my satisfaction, communication and responsiveness is fast. I got good leads within a few days of the ads going live.",
+  },
+  {
+    id: 5,
+    image: Image5,
+    title: "Ronald James",
+    description: "He did a nice job for me to create my Wiki Page. Thanks",
   },
 ];

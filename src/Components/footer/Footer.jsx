@@ -1,11 +1,20 @@
 import "./footer.css";
 import { CiFacebook } from "react-icons/ci";
 
+// import logo from "../../assets/logo/SaeemLogo.png";
+
 const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__container container">
-        <h1 className="footer__title">Smith</h1>
+        <h1 className="footer__title">Saeem Talukdar</h1>
+
+        {/* <div className="footer__logoContainer">
+          <a className="footer__logo" href="">
+            Saeem Talukdar
+            <img className="footer__logo__img" src={logo} alt="" /> 
+          </a>
+        </div> */}
 
         <ul className="footer__list">
           <li>

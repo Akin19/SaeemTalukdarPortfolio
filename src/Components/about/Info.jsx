@@ -1,4 +1,4 @@
-import { whyChoseMe, trustedBy } from "../../details";
+import { whyChoseMe, trustedByImg } from "../../details";
 const Info = () => {
   return (
     <div>
@@ -22,15 +22,27 @@ const Info = () => {
         })}
       </div> */}
       <div className="trusted__by__container">
-        <span className="subtitle">Trusted By</span>
+        <span className="section__title">Trusted By</span>
         <div className="trusted__by">
           <div className="marquee">
-            {trustedBy.map((item, index) => (
+            {/* {trustedBy.map((item, index) => (
               <h4 key={index}>{item}</h4>
-            ))}
+            ))} */}
+
             {/* Duplicate items for continuous marquee effect */}
-            {trustedBy.map((item, index) => (
+            {/* {trustedBy.map((item, index) => (
               <h4 key={`duplicate-${index}`}>{item}</h4>
+            ))} */}
+            {trustedByImg.map((item, index) => (
+              <img className="company-logo" key={index} src={item} alt="" />
+            ))}
+            {trustedByImg.map((item, index) => (
+              <img
+                className="company-logo"
+                key={`duplicate-${index}`}
+                src={item}
+                alt=""
+              />
             ))}
           </div>
         </div>

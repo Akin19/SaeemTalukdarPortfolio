@@ -1,8 +1,8 @@
-import Work1 from "../../assets/work1.jpg";
-import Work2 from "../../assets/work2.jpg";
-import Work3 from "../../assets/work3.jpg";
-import Work4 from "../../assets/work4.jpg";
-import Work5 from "../../assets/work5.jpg";
+// import Work1 from "../../assets/work1.jpg";
+// import Work2 from "../../assets/work2.jpg";
+// import Work3 from "../../assets/work3.jpg";
+// import Work4 from "../../assets/work4.jpg";
+// import Work5 from "../../assets/work5.jpg";
 
 // Portfolio image for wiki
 import wiki1 from "../../assets/wiki/wiki1.png";
@@ -36,13 +36,37 @@ import advertising6 from "../../assets/advertising/advertising6.jpg";
 import advertising7 from "../../assets/advertising/advertising7.png";
 import advertising8 from "../../assets/advertising/advertising8.png";
 
+// Portfolio for Website starts here
+import website1 from "../../assets/web/website1.png";
+import bellicon from "../../assets/web/bellicon.jpg";
+import fashinova from "../../assets/web/fashinova.jpg";
+import indestructibleshoe from "../../assets/web/indestructibleshoe.jpg";
+import livefit from "../../assets/web/livefit.jpg";
+
+import onewheel from "../../assets/web/onewheel.jpg";
+import racedaysquad from "../../assets/web/racedaysquad.jpg";
+import tedyFresh from "../../assets/web/tedyFresh.jpg";
 export const projectsData = [
   {
     id: 1,
-    image: Work1,
+    image: website1,
     title: "Web design",
     category: "web",
-    link: "https://asaduzzamanakin.netlify.app/",
+    link: "https://www.thebrick.com/",
+  },
+  {
+    id: 32,
+    image: bellicon,
+    title: "Web design",
+    category: "web",
+    link: "https://www.bellicon.com/en-eu/",
+  },
+  {
+    id: 33,
+    image: fashinova,
+    title: "Web design",
+    category: "web",
+    link: "https://www.fashionnova.com/",
   },
   {
     id: 2,
@@ -194,10 +218,40 @@ export const projectsData = [
   },
 
   {
-    id: 5,
-    image: Work5,
+    id: 26,
+    image: indestructibleshoe,
     title: "Web design",
     category: "web",
+    link: "https://indestructibleshoes.com/",
+  },
+  {
+    id: 27,
+    image: livefit,
+    title: "Web design",
+    category: "web",
+    link: "https://livefitapparel.com/",
+  },
+  {
+    id: 28,
+    image: onewheel,
+    title: "Web design",
+    category: "web",
+    link: "https://onewheel.com/",
+  },
+  {
+    id: 29,
+    image: racedaysquad,
+    title: "Web design",
+    category: "web",
+    link: "https://www.racedayquads.com/",
+  },
+
+  {
+    id: 30,
+    image: tedyFresh,
+    title: "Web design",
+    category: "web",
+    link: "https://teddyfresh.com/",
   },
 ];
 
