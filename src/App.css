@@ -9,11 +9,28 @@
   /*Color mode HSL(hue, saturation, lightness)*/
   --hue: 0;
   --sat: 0%;
-  --title-color: hsl(var(--hue), var(--sat), 20%);
+  /* --title-color: hsl(var(--hue), var(--sat), 20%);
   --title-color-dark: hsl(var(--hue), var(--sat), 0%);
   --text-color: hsl(var(--hue), var(--sat), 46%);
   --body-color: hsl(var(--hue), var(--sat), 98%);
-  --container-color: #fff;
+  --container-color: #fff; */
+  --title-color: hsl(
+    var(--hue),
+    var(--sat),
+    90%
+  ); /* Light title for contrast */
+  --title-color-dark: hsl(
+    var(--hue),
+    var(--sat),
+    70%
+  ); /* Slightly darker for subtitles */
+  --text-color: hsl(
+    var(--hue),
+    var(--sat),
+    60%
+  ); /* Softer text color for readability */
+  --body-color: hsl(var(--hue), var(--sat), 8%); /* Dark background */
+  --container-color: hsl(var(--hue), var(--sat), 10%);
 
   /*========== Font and typography ==========*/
   --body-font: "Poppins", sans-serif;
